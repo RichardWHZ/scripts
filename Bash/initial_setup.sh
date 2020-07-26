@@ -37,7 +37,7 @@ sudo apt install lutris -y
 
 # Install tlp UI
 sudo add-apt-repository ppa:linuxuprising/apps -y
-sudo apt instaLL tlpui -y
+sudo apt install tlpui -y
 
 # Install Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -48,6 +48,10 @@ echo "deb http://packages.azlux.fr/debian/ buster main" | sudo tee /etc/apt/sour
 wget -qO - https://azlux.fr/repo.gpg.key | sudo apt-key add -
 sudo apt update
 sudo apt install bashtop -y
+
+# Install Nerd Fonts
+git clone https://github.com/ryanoasis/nerd-fonts.git
+./nerd-fonts/install.sh
 
 # Downlaod Ventoy USB tool
 git clone https://github.com/ventoy/Ventoy.git
