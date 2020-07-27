@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # Customize terminal
-wget https://raw.githubusercontent.com/ChrisTitusTech/scripts/master/fancy-bash-promt.sh
-cat fancy-bash-promt.sh >> ~/.bashrc
-rm fancy-bash-promt.sh
+curl -sS https://raw.githubusercontent.com/diogocavilha/fancy-git/master/install.sh | sh
 
 # Installs all required software
 
