@@ -57,6 +57,11 @@ git clone https://github.com/ryanoasis/nerd-fonts.git
 # Downlaod Ventoy USB tool
 git clone https://github.com/ventoy/Ventoy.git
 
+# Set up xpadneo 
+git clone https://github.com/atar-axis/xpadneo.git
+sudo apt install dkms linux-headers-`uname -r`
+sudo ./xpadneo/install.sh
+
 # Install Anaconda
 wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 sudo chmod +x Anaconda3-2020.02-Linux-x86_64.sh
@@ -64,11 +69,6 @@ sudo chmod +x Anaconda3-2020.02-Linux-x86_64.sh
 
 # Configure Anaconda 
 conda config --set changeps1 False
-
-# Set up xpadneo 
-git clone https://github.com/atar-axis/xpadneo.git
-sudo apt install dkms linux-headers-`uname -r`
-sudo ./xpadneo/install.sh
 
 # Start tlp
 sudo tlp start
