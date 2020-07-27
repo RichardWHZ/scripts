@@ -42,6 +42,7 @@ sudo apt install tlpui -y
 # Install Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
+rm google-chrome-stable_current_amd64.deb
 
 # Install Bashtop
 echo "deb http://packages.azlux.fr/debian/ buster main" | sudo tee /etc/apt/sources.list.d/azlux.list
@@ -60,6 +61,9 @@ git clone https://github.com/ventoy/Ventoy.git
 wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 sudo chmod +x Anaconda3-2020.02-Linux-x86_64.sh
 ./Anaconda3-2020.02-Linux-x86_64.sh
+
+# Configure Anaconda 
+conda config --set changeps1 False
 
 # Set up xpadneo 
 git clone https://github.com/atar-axis/xpadneo.git
