@@ -2,13 +2,14 @@
 
 # Customize terminal
 curl -sS https://raw.githubusercontent.com/diogocavilha/fancy-git/master/install.sh | sh
+fancygit light
 
 # Installs all required software
 
 # Update packages
 sudo apt update
 sudo apt upgrade -y
-flatpak update
+flatpak update -y
 
 # Install APT packages
 sudo apt install -y \
@@ -27,7 +28,7 @@ ubuntu-restricted-extras \
 variety virtualbox vlc
 
 # Change fcitx UI
-sudo apt remove fcitx-ui-classic
+sudo apt remove fcitx-ui-classic -y
 sudo apt install fcitx-ui-qimpanel -y
 
 # Install Appimagelauncher
@@ -62,7 +63,7 @@ git clone https://github.com/ventoy/Ventoy.git
 
 # Install Whatdesk Whatsapp Client
 wget https://zerkc.gitlab.io/whatsdesk/whatsdesk_0.3.3_amd64.deb
-sudo apt install ./whatsdesk_0.3.3_amd64.deb
+sudo apt install ./whatsdesk_0.3.3_amd64.deb -y
 
 # Set up xpadneo 
 git clone https://github.com/atar-axis/xpadneo.git
