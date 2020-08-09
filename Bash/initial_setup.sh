@@ -15,6 +15,7 @@ fcitx fcitx-googlepinyin \
 gdebi git gnome-tweaks gparted \
 intel-microcode \
 libreoffice \
+minder \
 neofetch \
 steam synaptic \
 timeshift tlp tlp-rdw \
