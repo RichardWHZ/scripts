@@ -88,7 +88,7 @@ com.github.gijsgoudzwaard.image-optimizer \
 com.spotify.Client \
 com.valvesoftware.Steam.Utility.MangoHud \
 io.dbeaver.DBeaverCommunity	\
-nl.hjdskes.gcolor3 \
+nl.hjdskes.gcolor3 
 
 # Reboot
 sudo reboot
