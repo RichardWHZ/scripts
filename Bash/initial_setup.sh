@@ -5,9 +5,13 @@ curl -sS https://raw.githubusercontent.com/diogocavilha/fancy-git/master/install
 
 # Installs all required software
 
+# Update packages
 sudo apt update
 sudo apt upgrade -y
-sudo apt install \
+flatpak update
+
+# Install APT packages
+sudo apt install -y \
 atom \
 barrier \
 calibre \
@@ -20,7 +24,7 @@ neofetch \
 steam synaptic \
 timeshift tlp tlp-rdw \
 ubuntu-restricted-extras \
-variety virtualbox vlc -y
+variety virtualbox vlc
 
 # Change fcitx UI
 sudo apt remove fcitx-ui-classic
@@ -75,6 +79,16 @@ conda config --set changeps1 False
 
 # Start tlp
 sudo tlp start
+
+# Install Flatpaks
+flatpak install -y \
+com.getpostman.Postman \
+com.github.alainm23.planner	\
+com.github.gijsgoudzwaard.image-optimizer \
+com.spotify.Client \
+com.valvesoftware.Steam.Utility.MangoHud \
+io.dbeaver.DBeaverCommunity	\
+nl.hjdskes.gcolor3 \
 
 # Reboot
 sudo reboot
