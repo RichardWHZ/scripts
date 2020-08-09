@@ -56,7 +56,7 @@ sudo apt install bashtop -y
 
 # Install Nerd Fonts
 git clone https://github.com/ryanoasis/nerd-fonts.git
-./nerd-fonts/install.sh
+sudo ./nerd-fonts/install.sh
 
 # Downlaod Ventoy USB tool
 git clone https://github.com/ventoy/Ventoy.git
