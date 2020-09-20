@@ -31,3 +31,6 @@ fancygit light
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 sudo dnf install -y google-chrome-stable_current_x86_64.rpm
 rm google-chrome-stable_current_x86_64.rpm
+
+# Install Steam
+sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-steam.repo dnf -y install steam kernel-modules-extra
