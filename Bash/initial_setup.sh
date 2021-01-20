@@ -71,9 +71,9 @@ sudo apt install dkms linux-headers-`uname -r`
 sudo ./xpadneo/install.sh
 
 # Install Anaconda
-wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
-sudo chmod +x Anaconda3-2020.02-Linux-x86_64.sh
-./Anaconda3-2020.02-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+sudo chmod +x Anaconda3-2020.11-Linux-x86_64.sh
+./Anaconda3-2020.11-Linux-x86_64.sh
 
 # Configure Anaconda 
 conda config --set changeps1 False
