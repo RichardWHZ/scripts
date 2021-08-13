@@ -62,8 +62,8 @@ sudo ./nerd-fonts/install.sh
 git clone https://github.com/ventoy/Ventoy.git
 
 # Install Whatdesk Whatsapp Client
-wget https://zerkc.gitlab.io/whatsdesk/whatsdesk_0.3.3_amd64.deb
-sudo apt install ./whatsdesk_0.3.3_amd64.deb -y
+wget https://zerkc.gitlab.io/whatsdesk/whatsdesk_0.3.6_amd64.deb
+sudo apt install ./whatsdesk_0.3.6_amd64.deb -y
 
 # Set up xpadneo 
 git clone https://github.com/atar-axis/xpadneo.git
