@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Customize terminal
-curl -sS https://raw.githubusercontent.com/diogocavilha/fancy-git/master/install.sh | sh
-fancygit light
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
 # Installs all required software
 
